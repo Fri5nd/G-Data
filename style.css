@@ -1,0 +1,30 @@
+:root {
+    --background-color-dark: #2d2d30;
+    --default-text-color: #fff; 
+}
+
+body {
+    background-color: var(--background-color-dark);
+    color: var(--default-text-color);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+
+
+nav {
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    margin-right: 2rem;
+}
+
+nav a {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

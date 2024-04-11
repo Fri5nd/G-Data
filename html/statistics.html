@@ -19,17 +19,86 @@
     </nav>
 
 
-    <section>
-        <form>
-            <span>Weight<input type="number" name="weight" id="weight"></span>
-            <span>Age<input type="number" name="age" id="age"></span>
-            <span>Gender<select name="gender" id="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select></span>
-            <span>Skritt<input type="number" name="personlig-skritt" id="personlig-skritt"></span>
-            <span>Result: You have burned xxx Calories</span>
-        </form>
+    <section class="content-statistics">
+        <div class="statistics-left">
+            <form class="calories-burned-form">
+                <span>Weight<input type="number" name="weight" id="weight"></span>
+                <span>Age<input type="number" name="age" id="age"></span>
+                <span>Gender<select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select></span>
+                <span>Skritt<input type="number" name="personlig-skritt" id="personlig-skritt"></span>
+                <span class="result">Result: You have burned xxx Calories</span>
+            </form>
+        </div>
+        <div class="statistics-right">
+            <div class="formulas">
+                <!-- These formulas are found on the website "MedicalNewsToday" with the link: https://www.medicalnewstoday.com/articles/319731#calculating-daily-calorie-burn -->
+                <h4>Formulas used for the calculations:</h4>
+                <div class="formulas-men">
+                    <p>(9.65 × weight in kg) + (573 × height in m) – (5.08 × age in years) + 260</p>
+                </div>
+                <div class="formulas-woman"> 
+                    <p>(7.38 × weight in kg) + (607 × height in m) – (2.31 × age in years) + 43</p>
+                </div>
+            </div>
+            <div class="daily-calorie-burn">
+                <!-- These numbers are collected from the website at the URL: https://www.webmd.com/fitness-exercise/how-many-calories-do-i-burn-in-a-day -->
+                <h4>Avarage calories burned per day:</h4>
+                <table>
+                    <tr class="column">
+                        <td>Age</td>
+                        <td>BMR Man</td>
+                        <td>Moderatly Active Man</td>
+                        <td>BMR Woman</td>
+                        <td>Moderately Active Woman</td>
+                    </tr>
+                    <tr class="column">
+                        <td>20</td>
+                        <td>2450</td>
+                        <td>2950</td>
+                        <td>1950</td>
+                        <td>2300</td>
+                    </tr>
+                    <tr class="column">
+                        <td>30</td>
+                        <td>2400</td>
+                        <td>2850</td>
+                        <td>1850</td>
+                        <td>2250</td>
+                    </tr>
+                    <tr class="column">
+                        <td>40</td>
+                        <td>2300</td>
+                        <td>2750</td>
+                        <td>1800</td>
+                        <td>2200</td>
+                    </tr>
+                    <tr class="column">
+                        <td>50</td>
+                        <td>2250</td>
+                        <td>2650</td>
+                        <td>1750</td>
+                        <td>2100</td>
+                    </tr>
+                    <tr class="column">
+                        <td>60</td>
+                        <td>2150</td>
+                        <td>2600</td>
+                        <td>1700</td>
+                        <td>2050</td>
+                    </tr>
+                    <tr class="column">
+                        <td>70</td>
+                        <td>2050</td>
+                        <td>2500</td>
+                        <td>1650</td>
+                        <td>2000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </section>
 
 </body>

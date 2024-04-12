@@ -142,5 +142,23 @@ table td {
 
 .main-content-help {
     margin: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.help-left {
     max-width: 30vw;
+}
+
+.help-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-form input, textarea {
+    margin-top: 10px;
+}
+
+.help-form span, button {
+    margin-top: 15px;
 }

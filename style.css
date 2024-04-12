@@ -34,6 +34,27 @@ nav {
 }
 
 
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.footer-right {
+    margin-right: 100px;  
+}
+
+.footer-left {
+    margin-top: 80px;
+}
+
+
 /* Index */
 
 .Top {
@@ -120,11 +141,6 @@ table td {
 /* Help */
 
 .main-content-help {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.help-left {
+    margin: 150px;
     max-width: 30vw;
 }

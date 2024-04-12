@@ -1,6 +1,6 @@
 # Gå Data
 
-Gådata nettsiden som er laget her er en PROTOTYPE, den er ikke ferdig i det hele tatt, bare skallet på nettsiden er blitt laget.¨
+Gådata nettsiden som er laget her er en PROTOTYPE, den er ikke ferdig i det hele tatt, bare skallet på nettsiden er blitt laget.
 
 Bakgrunnen er grå, dette kan skriftet hvis det ønskes, det kan også bli lagdt inn bilde som passer til nettsiden.
 språket på nettsiden er valgdt til og være englesk med tanken rundt universell utforming og at folk som ikke kan norsk skal kunne forstå nettsiden
@@ -14,3 +14,7 @@ på venstre siden så har man en form, her kan man legge inn vekt, alder, kjønn
 
 Help er den siste siden, her har man først FAQ på venstre siden som kan blir oppdatert etter ønske og spørsmålene som blir sendt inn, på høyre siden er der disse spørsmålene kommer fra, her kan man legge inn mail og spørsmålet så kan det bli lagdt inn i FAQ og det kan bli svart på direkte til personen som spør, denne formen gjør heller ingen ting nå.
 man har også kontakt info nede i høyre hjørne av alle sider
+
+
+
+nettsiden er lastet opp på en lokal windwos server IIS VM på min laptop, ta kontakt hvis dere trenger den

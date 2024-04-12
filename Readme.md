@@ -16,5 +16,6 @@ Help er den siste siden, her har man først FAQ på venstre siden som kan blir o
 man har også kontakt info nede i høyre hjørne av alle sider
 
 
+for sikkerhet på nettsiden så kjøpes det inn et sikkert webdomene og lisenser. serveren som nettsiden kjører på blir sikkret på et sikkert lokale hvor andre ikke har tilgang til den og kildekoden blir bare å vare på serveren med backup's som også er sikkret på et fysisk lokale.
 
-nettsiden er lastet opp på en lokal windwos server IIS VM på min laptop, ta kontakt hvis dere trenger den
+Noe gådata ikke har tenkt på er sensitiv persondata og behandlingen av det, i den ferdige nettsiden så skal dette bli gjort med kryptering av sensitiv personopplysninger og med hindring av og spre tilgang til databaser og fysiske lokaler.
